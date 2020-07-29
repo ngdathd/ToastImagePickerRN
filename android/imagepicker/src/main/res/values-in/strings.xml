@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_write_external_rationale">Izinkan akses penyimpanan eksternal untuk memilih gambar</string>
+
+    <string name="ok">OK</string>
+    <string name="done">SELESAI</string>
+    <string name="camera">KAMERA</string>
+
+    <string name="title_folder">Folder</string>
+    <string name="title_select_image">Ketuk untuk memilih gambar</string>
+    <string name="ltitle_permission_denied">Izin ditolak</string>
+
+    <string name="selected">%d terpilih</string>
+    <string name="selected_with_limit">%1$d/%2$d terpilih</string>
+
+    <string name="error_create_image_file">Gagal membuat berkas gambar</string>
+    <string name="error_no_camera">Kamera tidak ditemukan</string>
+    <string name="error_null_cursor">Ups, ada yang tidak beres!</string>
+
+    <string name="msg_empty_images">Gambar tidak ditemukan</string>
+    <string name="msg_no_write_external_permission">Mohon berikan izin terhadap penyimpanan untuk memilih gambar</string>
+    <string name="msg_no_camera_permission">Mohon berikan izin terhadap kamera untuk mengambil gambar</string>
+    <string name="msg_limit_images">Gambar yang terpilih sudah mencapai batas maksimal</string>
+</resources>

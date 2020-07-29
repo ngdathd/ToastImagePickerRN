@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_50"
+    android:background="@color/white_100">
+
+    <TextView
+        android:id="@+id/custom_title_toolbar"
+        style="@style/RB_B_18"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/text_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_back_navigation"
+            style="@style/RB_M_14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/dp_16"
+            android:paddingEnd="@dimen/dp_16"
+            fancy:fb_defaultColor="@android:color/transparent"
+            fancy:fb_focusColor="@color/gray_100"
+            fancy:fb_fontIconResource="@string/icon_back"
+            fancy:fb_fontIconSize="26sp"
+            fancy:fb_iconPaddingLeft="0dp"
+            fancy:fb_text="@string/title_toolbar_btn_back"
+            fancy:fb_textColor="@color/blue_main" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_save_navigation"
+            style="@style/RB_M_14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/dp_16"
+            android:paddingEnd="@dimen/dp_16"
+            fancy:fb_defaultColor="@android:color/transparent"
+            fancy:fb_focusColor="@color/gray_100"
+            fancy:fb_fontIconSize="18sp"
+            fancy:fb_iconPosition="right"
+            fancy:fb_text="@string/done"
+            fancy:fb_textColor="@color/blue_main" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

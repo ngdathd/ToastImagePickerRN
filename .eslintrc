@@ -1,0 +1,64 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "rules": {
+        "no-console": 0,
+        "no-multi-str": 0,
+        "no-underscore-dangle": 0,
+        "no-duplicate-imports": [
+            "error",
+            {
+                "includeExports": true
+            }
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "next"
+            }
+        ],
+        "no-use-before-define": [
+            "error",
+            {
+                "variables": false
+            }
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "indent": [
+            "warn",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "max-len": "off",
+        "arrow-parens": "off",
+        "object-shorthand": "off",
+        "prefer-destructuring": "off",
+        "object-curly-newline": "off",
+        "function-paren-newline": "off"
+    }
+}

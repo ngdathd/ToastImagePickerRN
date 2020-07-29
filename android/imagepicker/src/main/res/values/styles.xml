@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="EFAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/ef_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ef_colorPrimaryDark</item>
+        <item name="colorAccent">@color/ef_colorAccent</item>
+    </style>
+
+    <style name="CustomToolbarTheme" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/ef_colorTextPrimary</item>
+        <item name="actionMenuTextColor">@color/ef_colorTextPrimary</item>
+    </style>
+
+    <style name="RB_B_18">
+        <item name="android:fontFamily">@font/sanfranciscodisplay_bold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="RB_M_14">
+        <item name="android:fontFamily">@font/sanfranciscodisplay_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

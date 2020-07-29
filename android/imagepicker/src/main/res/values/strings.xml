@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_write_external_rationale">Allow access external storage to select images</string>
+
+    <string name="ok">OK</string>
+    <string name="done">Xong</string>
+    <string name="camera">Camera</string>
+
+    <string name="title_folder">Thư mục</string>
+    <string name="title_select_image">Bấm để chọn ảnh</string>
+    <string name="ltitle_permission_denied">Quyền bị từ chối</string>
+
+    <string name="selected">%d đã chọn</string>
+    <string name="selected_with_limit">%1$d/%2$d đã chọn</string>
+
+    <string name="error_create_image_file">Không thể tạo tệp hình ảnh</string>
+    <string name="error_no_camera">Không tìm thấy camera</string>
+    <string name="error_null_cursor">Có lỗi xảy ra vui lòng thử lại!</string>
+
+    <string name="msg_empty_images">Không tìm thấy ảnh</string>
+    <string name="msg_no_write_external_permission">Vui lòng cấp quyền lưu trữ để chọn hình ảnh</string>
+    <string name="msg_no_camera_permission">Vui lòng cấp quyền cho máy ảnh để chụp ảnh</string>
+    <string name="msg_limit_images">Giới hạn lựa chọn hình ảnh</string>
+
+    <!--Don't Translate-->
+    <string name="gif" translatable="false">GIF</string>
+    <string name="video" translatable="false">Video</string>
+    <string name="content_desc_folder" translatable="false">Folder</string>
+    <string name="content_desc_image" translatable="false">Image</string>
+    <string name="icon_back" translatable="false">&#xf104;</string>
+
+    <string name="title_toolbar_btn_back">Trở lại</string>
+
+</resources>

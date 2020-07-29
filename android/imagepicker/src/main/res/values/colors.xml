@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ef_colorPrimary">#3F51B5</color>
+    <color name="ef_colorPrimaryDark">#303F9F</color>
+    <color name="ef_colorAccent">#FF4081</color>
+    <color name="ef_colorTextPrimary">#FFFFFF</color>
+
+    <color name="ef_white">#FFFFFF</color>
+    <color name="ef_grey">#9E9E9E</color>
+    <color name="ef_black_alpha_50">#80000000</color>
+    <color name="ef_black_alpha_aa">#AA000000</color>
+    <color name="ef_teal">#009688</color>
+
+    <color name="text_main">#0a0f13</color>
+    <color name="white_100">#ffffff</color>
+    <color name="gray_100">#d1d9df</color>
+    <color name="blue_main">#1b8af2</color>
+</resources>

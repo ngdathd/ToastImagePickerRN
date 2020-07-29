@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_write_external_rationale">عليك إعطاء التطبيق الصلاحية لاستخدام الصور</string>
+
+    <string name="ok">وافق</string>
+    <string name="done">انهي</string>
+    <string name="camera">كاميرا</string>
+
+    <string name="title_folder">دليل</string>
+    <string name="title_select_image">أنقر لإختيار الصور</string>
+    <string name="ltitle_permission_denied">طلب الاذن مرفوض</string>
+
+    <string name="selected">إخترت %d</string>
+    <string name="selected_with_limit">إخترت %1$d/%2$d</string>
+
+    <string name="error_create_image_file">حدث خطأ في تسجيل الصوره</string>
+    <string name="error_no_camera">لا يوجد كاميرا</string>
+    <string name="error_null_cursor">عذراً، هناك خطأ ما!</string>
+
+    <string name="msg_empty_images">لم يتم العثور على صور</string>
+    <string name="msg_no_write_external_permission">عليك إعطاء التطبيق الصلاحية لاستخدام الصور</string>
+    <string name="msg_no_camera_permission">عليك إعطاء التطبيق الصلاحية لاستخدام الكاميرا لتتمكن من التصوير</string>
+    <string name="msg_limit_images">تحديد إختيار الصور</string>
+</resources>
